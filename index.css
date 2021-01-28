@@ -1,0 +1,299 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-size: 20px;
+}
+
+h1 {
+  font-size: 50px;
+}
+
+h2 {
+  font-size: 40px;
+}
+
+h3 {
+  font-size: 25px;
+}
+
+.header {
+  background-image: url(images/5.jpg);
+  height: 500px;
+}
+
+nav {
+  height: 300px;
+  position: relative;
+  padding: 2px 0 0 40px;
+}
+
+.logo {
+  font-size: 30px;
+  color: #fff;
+  display: block;
+  text-align: left;
+}
+
+ul {
+  list-style-type: none;
+  display: block;
+  position: absolute;
+  top: 20px;
+  right: 5px;
+}
+
+li {
+  display: inline-block;
+  font-size: 20px;
+  margin-left: 10px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.nav-links {
+  color: #f88f01;
+}
+
+.featured-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  padding: 8px 0 5px 80px;
+}
+
+.featured-content {
+  width: 200px;
+}
+
+.btn-book {
+  color: #6a492b;
+  background-color: transparent;
+  border-width: 2px;
+  border-color: #f88f01;
+  border-radius: 5px;
+  width: 200px;
+  height: 30px;
+  font-size: 20px;
+}
+
+.btn-book:hover {
+  background-color: #e27802;
+  color: #fff;
+}
+
+.why-us {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding: 100px;
+}
+
+.subscribe {
+  background-color: #6a492b;
+  margin: 20px 0 0;
+  padding: 15px;
+  color: #fff;
+}
+
+.sub-submit {
+  background-color: #f88f01;
+  color: #fff;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #f88f01;
+  height: 50px;
+  border-radius: 7px;
+  font-size: 20px;
+}
+
+.sub-submit:hover {
+  color: #e27802;
+  background-color: #fff;
+  border-width: 2px;
+  border-color: #f88f01;
+}
+
+.sub-input {
+  border-style: solid;
+  width: 50%;
+  height: 50px;
+  border-radius: 7px;
+  border-width: 1px;
+}
+
+.testimonial-content {
+  padding: 10px;
+  display: block;
+  margin-bottom: 20px;
+}
+
+.testimonial-img {
+  width: 20%;
+  border-radius: 50%;
+}
+
+.social-media {
+  background-color: #000;
+  color: #fff;
+  padding: 20px 10px 0 10px;
+  margin: 0;
+}
+
+.fab {
+  margin-left: 30px;
+  font-size: 20px;
+}
+
+.fab:hover {
+  color: #e27802;
+}
+
+/*For Mobile*/
+
+@media (max-width: 575px) {
+  body {
+    text-align: center;
+    font-size: 20px;
+    margin: 0;
+  }
+  h1 {
+    font-size: 40px;
+  }
+  h2 {
+    font-size: 30px;
+    margin: 0 40px 0;
+  }
+
+  h3 {
+    font-size: 30px;
+    margin: 0;
+  }
+  nav {
+    color: #f88f01;
+    position: static;
+    padding: 0 0 0 10px;
+    height: auto;
+  }
+
+  .logo {
+    text-align: left;
+    color: #f88f01;
+    font-size: 10x;
+    display: block;
+    margin: 0;
+  }
+
+  ul {
+    margin: 10px 0;
+    text-align: left;
+    list-style-type: none;
+    display: block;
+    position: static;
+    padding: 0;
+  }
+
+  li {
+    font-size: 15px;
+    display: block;
+    margin-left: o;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  .nav-links {
+    color: #e27802;
+  }
+  .header {
+    background-color: none;
+    max-width: 100%;
+    background-image: none;
+    height: auto;
+  }
+
+  .featured-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 0;
+  }
+  .featured-content {
+    width: auto;
+  }
+
+  .btn-book {
+    color: #6a492b;
+    background-color: transparent;
+    border-width: 2px;
+    border-color: #f88f01;
+    border-radius: 5px;
+    width: 90px;
+    height: 30px;
+    font-size: 20px;
+    margin-bottom: 40px;
+  }
+
+  .btn-book:hover {
+    background-color: #e27802;
+    color: #fff;
+  }
+
+  .why-us {
+    display: grid;
+    grid-template-columns: 1fr;
+    max-width: 100%;
+    padding: 0;
+    margin-bottom: 20px;
+  }
+
+  .subscribe {
+    background-color: #6a492b;
+    margin: 20px 0 0;
+    color: #fff;
+    text-align: left;
+  }
+
+  .sub-submit {
+    font-size: 15px;
+    background-color: #f88f01;
+    color: #fff;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #f88f01;
+    height: 30px;
+    border-radius: 7px;
+  }
+
+  .sub-input {
+    border-style: solid;
+    height: 30px;
+    border-radius: 7px;
+    border-width: 1px;
+  }
+
+  .testimonial-content {
+    padding: 0;
+    display: block;
+    margin: 20px;
+  }
+
+  .testimonial-img {
+    width: 40%;
+    border-radius: 50%;
+  }
+
+  .social-media {
+    background-color: #6a492b;
+    color: #fff;
+    line-height: 3;
+  }
+
+  .fab {
+    margin-left: 30px;
+    font-size: 15px;
+  }
+
+  .social-media p {
+    margin: 0;
+  }
+}
